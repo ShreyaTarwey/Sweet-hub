@@ -1,0 +1,579 @@
+h1{
+    text-shadow: 2px 2px #4b4343;
+    font-size: xxx-large;
+}
+h1 {
+width: 280px;
+height: 70px;
+background-color: rgb(55, 177, 207);
+animation-name: mine;
+animation-duration: 120s;
+animation-iteration-count: 10;
+animation-fill-mode: both;
+animation-play-state: running;
+touch-action: cross-slide-x;
+border-radius: 20px;
+animation-play-state: inherit;
+}
+
+@keyframes mine {
+0%{background-color: rgb(196, 63, 136);}
+30% {background-color: rgb(63, 115, 173);}
+30% {background-color: rgb(21, 57, 99);}
+30% {background-color: rgb(226, 132, 226);}
+10% {background-color: rgb(189, 229, 186);}
+20% {background-color: rgb(190, 195, 201);}
+10% {background-color: rgb(221, 233, 155);}
+35% {background-color: rgb(238, 198, 153);}
+20% {background-color: rgb(63, 115, 173);}
+
+}
+
+.first{
+float:left;
+padding : 1%; 
+color: rgb(17, 18, 19); 
+background-color:rgba(151, 236, 14, 0.158); 
+width: 30%; 
+border: solid black;
+-moz-box-shadow: 10px 10px 16px #000000;
+-webkit-box-shadow: 10px 10px 16px #000000;
+box-shadow: 10px 10px 16px #000000;
+
+
+}
+.second{
+float:left;padding : 1%; 
+color: rgb(17,18,19); 
+background-color:rgba(236, 14, 188, 0.425); 
+width: 30%; 
+border: solid black;
+-moz-box-shadow: 10px 10px 16px #000000;
+-webkit-box-shadow: 10px 10px 16px #000000;
+box-shadow: 10px 10px 16px #000000;
+
+
+
+
+}
+.third{
+
+float:left;
+padding : 1%;
+color: rgb(17,18,19); 
+background-color:rgba(14, 117, 236, 0.308); 
+width: 30%; 
+border: solid black;
+-moz-box-shadow: 10px 10px 16px #000000;
+-webkit-box-shadow: 10px 10px 16px #000000;
+box-shadow: 10px 10px 16px #000000;
+background-image: none;
+
+
+}
+.button1{
+border-radius:10px;
+background-color: rgb(169, 167, 180);
+
+
+}
+.button1:hover{
+box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.button2{
+border-radius: 15px;
+background-color:rgb(76, 164, 175) ;
+}
+.button2:hover{
+box-shadow: 0 25px 16px 0 rgba(14, 1, 1, 0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+h6{
+font-size: xx-large;
+font-family: 'Courier New', Courier, monospace;
+text-align:center;
+border-width: 10px;
+border-top: slategray;
+margin-top: 550px;
+
+
+}
+.new{
+padding-left: 480px;
+padding-top: 800px;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: xx-large;
+height: -30px;
+background-image: url(data:image/jpeg;base64,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); height: -800px;
+text-align:left;
+
+}
+.brown{
+padding-left: 420px;
+padding-top: 300px;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: xxx-large;
+height: -30px;
+background-image: url(https://images.pexels.com/photos/3910065/pexels-photo-3910065.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+text-align: left;
+transition: width 2s linear 1s;
+}
+.brown:hover {
+width: 10px;
+}
+::-webkit-scrollbar {
+width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+box-shadow: inset 0 0 5px grey; 
+border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+background: rgb(168, 197, 224); 
+border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+background: #77cde7; 
+}
+.item1 {
+grid-area: myArea;
+}
+
+
+
+.grid-container {
+display: grid;
+grid-template-areas: 'myArea myArea . . .';
+grid-gap: 10px;
+background-color: #09010e;
+padding: 10px;
+animation: mymove 5s infinite;
+}
+
+.grid-container > div {
+background-color: rgba(255, 255, 255, 0.8);
+text-align: center;
+padding: 20px 0;
+font-size: 30px;
+}
+
+@keyframes mymove {
+50% {grid-template-areas: '. . . myArea myArea';}
+}
+@import url("https://fonts.googleapis.com/css?family=Fredoka+One");
+
+.store-container {
+line-height:0;
+margin: 50px auto;
+width: 50%;
+}
+.stroke {
+stroke: #d5c1e2;
+stroke-width: 5;
+stroke-linejoin: round;
+stroke-miterlimit: 10;
+}
+.round-end {
+stroke-linecap: round;
+}
+#store {
+animation: fadeIn 0.8s ease-in;
+}
+.border-animation {
+background-color: rgba(255, 255, 255, 0);
+border-radius: 10px;
+position: relative;
+}
+.border-animation:after {
+content: "";
+background: linear-gradient(45deg, #ccc 48.9%, #e283dd 49%);
+background-size: 300% 300%;
+border-radius: 10px;
+position: absolute;
+top: -5px;
+left: -5px;
+height: calc(100% + 10px);
+width: calc(100% + 10px);
+z-index: -1;
+animation: borderGradient 8s linear both infinite;
+}
+@keyframes borderGradient {
+0%,
+100% {
+background-position: 0% 100%;
+}
+50% {
+background-position: 100% 0%;
+}
+}
+@keyframes fadeIn {
+to {
+opacity: 1;
+}
+}
+#browser {
+transform: translateY(-100%);
+-webkit-animation: moveDown 1.5s cubic-bezier(0.77, -0.5, 0.3, 1.5) forwards;
+animation: moveDown 1.5s cubic-bezier(0.77, -0.5, 0.3, 1.5) forwards;
+}
+@keyframes moveDown {
+from {
+transform: translate(0, -100%);
+}
+to {
+transform: translate(0, 0);
+}
+}
+#toldo {
+animation: fadeIn 1s 1.4s ease-in forwards;
+}
+.grass {
+animation: fadeIn 0.5s 1.6s ease-in forwards;
+}
+#window {
+animation: fadeIn 0.5s 1.8s ease-in forwards;
+}
+#door {
+animation: fadeIn 0.5s 2s ease-in forwards;
+}
+#sign {
+transform-origin: 837px 597px;
+animation: pendulum 1.5s 2s ease-in-out alternate;
+}
+.trees {
+animation: fadeIn 0.5s 2.2s ease-in forwards;
+}
+#toldo,
+.grass,
+#window,
+#door,
+.trees,
+.cat,
+.cat-shadow,
+.box,
+.parachute,
+.tshirt,
+.cap,
+.ball,
+#text,
+#button,
+.sky-circle,
+.sky-circle2,
+.sky-circle3 {
+opacity: 0;
+}
+@keyframes pendulum {
+20% {
+transform: rotate(60deg);
+}
+40% {
+transform: rotate(-40deg);
+}
+60% {
+transform: rotate(20deg);
+}
+80% {
+transform: rotate(-5deg);
+}
+}
+.cat {
+transform-origin: 1145px 620px;
+}
+.cat-shadow {
+transform-origin: 1115px 625px;
+}
+#store:hover .cat {
+animation: catHi 3s 3s cubic-bezier(0.7, -0.5, 0.3, 1.4);
+}
+#store:hover .cat-shadow {
+animation: catShadow 4s 2s cubic-bezier(0.7, -0.5, 0.3, 1.4) alternate;
+}
+@keyframes catHi {
+0%,
+100% {
+opacity: 0;
+transform: scale(0.8);
+}
+10%,
+60% {
+transform: scale(1);
+opacity: 1;
+}
+}
+@keyframes catShadow {
+0%,
+100% {
+transform: translate(40px, -35px) scale(0.3);
+}
+10%,
+60% {
+opacity: 1;
+transform: translate(-5px, 10px) scale(0.5);
+}
+60% {
+opacity: 0;
+}
+}
+.box,
+.parachute {
+transform-origin: 430px 100px;
+animation: moveBox 14s 4s linear forwards infinite;
+}
+.parachute {
+animation: parachute 14s 4s linear forwards infinite;
+}
+@keyframes moveBox {
+0% {
+opacity: 0;
+transform: translate(0, -150px) rotate(20deg);
+}
+15% {
+opacity: 1;
+transform: translate(0, 100px) rotate(-15deg);
+}
+25% {
+transform: translate(0, 250px) rotate(10deg);
+}
+30% {
+transform: translate(0, 350px) rotate(-5deg);
+}
+35% {
+opacity: 1;
+transform: translate(0, 570px) rotate(0deg);
+}
+45%,
+100% {
+opacity: 0;
+transform: translate(0, 570px);
+}
+}
+@keyframes parachute {
+0% {
+transform: translate(0, -150px) rotate(20deg) scale(0.8);
+opacity: 0;
+}
+15% {
+transform: translate(0, 100px) rotate(-15deg) scale(1);
+opacity: 1;
+}
+25% {
+transform: translate(0, 250px) rotate(10deg);
+}
+30% {
+transform: translate(0, 350px) rotate(-5deg);
+}
+33% {
+transform: translate(0, 460px) rotate(0deg) scale(0.9);
+opacity: 1;
+}
+45%,
+100% {
+transform: translate(0, 480px);
+opacity: 0;
+}
+}
+.tshirt {
+animation: fadeInOut 42s 10s ease-in forwards infinite;
+}
+.cap {
+animation: fadeInOut 42s 24s ease-in forwards infinite;
+}
+.ball {
+animation: fadeInOut 42s 38s ease-in forwards infinite;
+}
+#text,
+#button {
+animation: fadeIn 1s 5s ease-in forwards;
+}
+@keyframes fadeInOut {
+5%,
+12% {
+opacity: 1;
+}
+20% {
+opacity: 0;
+}
+}
+.cloud {
+animation: clouds 50s linear backwards infinite;
+}
+.cloud2 {
+animation: clouds 40s 40s linear backwards infinite;
+}
+.plane {
+animation: clouds 30s linear backwards infinite;
+will-change: transform;
+}
+@keyframes clouds {
+from {
+transform: translate(-150%, 0);
+}
+to {
+transform: translate(150%, 0);
+}
+}
+.sky-circle {
+animation: fadeInOut 10s 5s ease-in infinite;
+}
+.sky-circle2 {
+animation: fadeInOut 12s 30s ease-in infinite;
+}
+.sky-circle3 {
+animation: fadeInOut 8s 40s ease-in infinite;
+}
+table {
+border-collapse: collapse;
+border-spacing: 0;
+width: 100%;
+border: 1px solid rgb(23, 133, 141);
+}
+
+th, td {
+text-align: left;
+padding: 16px;
+}
+
+tr:nth-child(even) {
+background-color: #ca66ca;
+}
+
+
+
+
+h10 {
+    height: 100px;
+}
+
+h10 span {
+    position: relative;
+    top: 20px;
+    display: inline-block;
+    animation: bounce .3s ease infinite alternate;
+    font-family: 'Titan One'cursive;
+    font-size: 80px;
+    color: rgba(236, 14, 188, 0.425),;
+    text-shadow: 0 1px 0 rgba(236, 14, 188, 0.425), ,
+        0 2px 0 rgba(236, 14, 188, 0.425),
+        0 3px 0 rgba(236, 14, 188, 0.425),
+        0 4px 0  rgba(236, 14, 188, 0.425),
+        0 5px 0 rgba(236, 14, 188, 0.425)
+        0 6px 0 transparent,
+        0 7px 0 transparent,
+        0 8px 0 transparent,
+        0 9px 0 transparent,
+        0 10px 10px rgba(0, 0, 0, 0.4);
+}
+
+h10 span:nth-child(2) {
+    animation-delay: .1s;
+}
+
+h10 span:nth-child(3) {
+    animation-delay: .2s;
+}
+
+h10 span:nth-child(4) {
+    animation-delay: .3s;
+}
+
+h10 span:nth-child(5) {
+    animation-delay: .4s;
+}
+
+h10 span:nth-child(6) {
+    animation-delay: .5s;
+}
+
+h10 span:nth-child(7) {
+    animation-delay: .6s;
+}
+
+h10 span:nth-child(8) {
+    animation-delay: .7s;
+}
+
+@keyframes bounce {
+    100% {
+        top: -20px;
+        text-shadow: 0 1px 0 rgb(97, 95, 95),
+            0 2px 0 rgb(97, 95, 95),
+            0 3px 0 rgb(97, 95, 95),
+            0 4px 0 rgb(97, 95, 95),
+            0 5px 0 rgb(97, 95, 95),
+            0 6px 0 rgb(97, 95, 95),
+            0 7px 0 rgb(97, 95, 95),
+            0 8px 0 rgb(97, 95, 95),
+            0 9px 0 rgb(97, 95, 95),
+            0 50px 25px rgba(236, 14, 188, 0.425);
+    }
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Corben:700');
+
+h11 {
+font-family: 'Corben', cursive;
+font-size: 2rem;
+color: white;
+letter-spacing: 0.1rem;
+text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.66);
+}
+
+.hero {
+background-image: radial-gradient(50% 176%, #253854 80%, #061922 100%);
+//min-height: 100vh;
+min-height: 30rem;
+position: relative;
+overflow: hidden;
+display: flex;
+justify-content: center;
+align-content: center;
+
+&__content {
+    position: relative;
+    align-self: center;
+    padding: 3rem 0;
+}
+}
+
+.snow {
+position: absolute;
+min-width: 100vw;
+min-height: 100vh;
+height: 100%;
+width: 100%;
+top: 0;
+left: 0;
+}
+
+.snow .svg {
+position: absolute;
+width: 100%;
+height: 100%;
+}
+
+#snow-top-layer {
+will-change: transform;
+transform: translateY(-768px);
+animation: fall 22.5s infinite linear;
+}
+
+#snow-bottom-layer {
+will-change: transform;
+transform: translateY(-768px);
+animation: fall 45s infinite linear;
+}
+
+@keyframes fall {
+
+100% {
+    transform: translateY(0);
+}
+
+}
